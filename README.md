@@ -1,2 +1,2 @@
-# re#
+# re*#*
 JVM language (source to source)
