@@ -1,0 +1,9 @@
+grammar com.github.e2point718.rehash.RehashDsl with org.eclipse.xtext.common.Terminals
+
+generate rehashDsl "http://www.github.com/e2point718/rehash/RehashDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
