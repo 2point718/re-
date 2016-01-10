@@ -1,13 +1,13 @@
 # re*#* [![Build Status](https://circleci.com/gh/2point718/rehash.svg?style=svg)](https://circleci.com/gh/2point718/rehash)
-JVM language (source to source)
+JVM language
 
-# Goals
+# Goals (draft)
 
-* no null (optionals handled similar to the way SDO uses isSet on primitives)
+* [no null](http://stackoverflow.com/questions/28106234/are-there-languages-without-null) (optionals can be determined the way SDO uses isSet on primitives) - no regard for memory!?!
 * beans with properties (struct) 
 * built-in logging
-* unit testing support
-* no string literals. string literals need to be externalized in enum
+* built-in unit testing support
+* no string literals to force NLS and constants (extreme?)
 * data types num, str, bool, list, map
 * +,-, [] operators can be applied on list and map
 * control structures limited to if and for
