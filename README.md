@@ -4,7 +4,8 @@ JVM language
 # Goals (draft)
 
 * [no null](http://stackoverflow.com/questions/28106234/are-there-languages-without-null) (optionals can be determined the way SDO uses isSet on primitives) - no regard for memory!?!
-* beans with properties (struct) 
+* beans with properties (struct person { str firstName; str lastName;}) no getters/setters
+* merge friendly (not as whitespace significant as python but newlines matter)
 * built-in logging
 * built-in unit testing support
 * no string literals to force NLS and constants (extreme?)
