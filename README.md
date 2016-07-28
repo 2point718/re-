@@ -1,3 +1,5 @@
+**This project is not being actively developed or maintained.**
+
 # re*#* [![Build Status](https://circleci.com/gh/2point718/rehash.svg?style=svg)](https://circleci.com/gh/2point718/rehash)
 JVM language
 
