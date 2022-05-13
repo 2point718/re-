@@ -12,4 +12,5 @@ JVM language (source to source translation)
 * container built in types with specific datatype/struct in them: list [], map {}, set () 
 * procedural language (proc mutable, func immutable)
 * struct with only attributes for object type data structure
-* control stuctures - if(boolean condition), while(boolean condition), while(item,itemindex in iterable)
+* control stuctures - if(boolean condition), while(boolean condition), while(item,itemindex in iterable), break for loop, no return (last line of the fn is the return object)
+* struct within struct deference has to be within inner obj exists check block (static analysis built into compiler)
